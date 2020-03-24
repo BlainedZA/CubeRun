@@ -11,13 +11,15 @@ public class LevelComplete : MonoBehaviour
 
     public PlayerMovement movement;
 
-
+    
 
     void Start()
     {
         levelUpSound = GetComponent<AudioSource>();
         movement.enabled = false;
         levelUpSound.Play();
+        PlayerPrefs.SetInt("Counter", 0);
+
     }
 
 

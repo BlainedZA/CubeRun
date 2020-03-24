@@ -2594,6 +2594,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50924703b13471444bfbdccdc6e81c73, type: 3}
+--- !u!114 &1212874980 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1152409880, guid: 9ef18b996be09364bbbaf2ba07f92a2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7327682651382754577}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1284758630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4057,6 +4069,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1749647970, guid: 8c588742ecf36e04f902900f5f9e630c, type: 3}
+      propertyPath: deathText
+      value: 
+      objectReference: {fileID: 1212874980}
     - target: {fileID: 8075387909635190418, guid: 8c588742ecf36e04f902900f5f9e630c,
         type: 3}
       propertyPath: m_LocalPosition.x
