@@ -9,7 +9,7 @@ public class DeathManager : MonoBehaviour
     void Awake()
     {
         deaths = PlayerPrefs.GetInt("Counter");
-        deathText.text = "Deaths:" + deaths.ToString();
+        deathText.text = "Deaths: " + deaths.ToString();
     }
 
     public void IncreaseDeaths()

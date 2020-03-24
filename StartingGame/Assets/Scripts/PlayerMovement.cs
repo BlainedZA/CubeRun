@@ -7,6 +7,12 @@ public class PlayerMovement : MonoBehaviour
 
     public float forwardForce = 2000f;
     public float sidewaysForce = 500f;
+    private DeathManager dm;
+
+    void Awake()
+    {
+        dm = GameObject.FindObjectOfType<DeathManager>();
+    }
 
 
     // We marked this as "Fixed Update because we are using it to mess with physics
@@ -27,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
         if (rb.position.y < -1f)
         {
             FindObjectOfType<GameManager>().EndGame();
+            dm.IncreaseDeaths();
         } 
 
     }
